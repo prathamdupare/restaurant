@@ -12,7 +12,7 @@ export function createHome() {
 
     const chefImage = document.createElement("img");
     chefImage.classList.add("chef-image");
-    chefImage.src = "/images/chef.jpg";
+    chefImage.src = "chef.jpg";
     chefImage.alt = "Chef";
 
     const aboutRes = document.createElement("div");
